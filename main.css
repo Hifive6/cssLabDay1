@@ -4,8 +4,8 @@
      
         margin: 0;
         position: absolute;            
-        top: 50%;
-        left: 50%;
+        top: 30%;
+        left: 25%;
         border-width: 200px;
         border-style: dotted;
         border-color: yellow green blue red;
