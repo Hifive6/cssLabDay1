@@ -1,14 +1,50 @@
+
+
 .ovalWrapper {
-    /* position: absolute; */
+     
+        margin: 0;
+        position: absolute;            
+        top: 50%;
+        left: 50%;
+        border-width: 200px;
+        border-style: dotted;
+        border-color: yellow green blue red;
+        border-radius: 50%;
+        transform: rotate(45deg);
+    
+}
+
+/* .ovalWrapper {
+    position: absolute;
     background-color: black;
-    margin: 0 auto;
+    margin: 0 25%;
     margin-top: 13%;
     width: 500px;
     height: 500px;
     border-radius: 50%;
-}
+    background-image: linear-gradient(to right, transparent 50%, #655 0);
+    /* background-image: linear-gradient(to right, red, yellow, #655, blue); 
+    
+} 
+*/
 
-div {
+/* .ovalWrapper::before {
+    content: " ";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    /* transform: translate(0, 100%) rotate(cal(var(--value, 45) * 1deg)); 
+    transform-origin: left; 
+    transform: rotate(.25turn);
+}
+*/
+
+
+
+
+/* div {
     color: white;
     font-weight: 300;
     font-size: 20px;
@@ -17,15 +53,15 @@ div {
 
 #red {
     position: absolute;
-    /* text-align: center; */
-    color: red;
+    /* text-align: center; 
+    color: white;
     top: 25%;
     left:35%;
 }
 
 #yellow {
     position: absolute;
-    /* text-align: center; */
+    /* text-align: center; 
     color: yellow;
     top: 25%;
     right: 35%;
@@ -33,7 +69,7 @@ div {
 
 #blue {
     position: absolute;
-    /* text-align: center; */
+    text-align: center; 
     color: rgb(147, 147, 233);
     top: 54%;
     left: 35%;
@@ -41,9 +77,41 @@ div {
 
 #green {
     position: relative;
-    /* text-align: center; */
+    text-align: center;
     color: rgb(120, 226, 120);
-    top: 75%;
+    bottom: 20%;
     left: 70%;
     
 }
+
+#topRed {
+    width:100px; 
+     height:100px; 
+     border:1px solid #000; 
+     background: rgb(170, 21, 10);
+     border-radius: 90px 0 0 0;
+}
+
+#top {
+    width:100px; 
+     height:100px; 
+     border:1px solid #000; 
+     background: rgb(240, 225, 17);
+     border-radius: 0 90px 0 0;
+}
+
+#bottomBlue {
+    width:100px; 
+    height:100px; 
+    border:1px solid #000; 
+    background: rgb(29, 68, 240);
+    border-radius: 0 0 90px 0;
+}
+
+#bottomGreen {
+    width:100px; 
+     height:100px; 
+     border:1px solid #000; 
+     background: rgb(24, 228, 24);
+     border-radius: 0 0 0 90px;
+} */
