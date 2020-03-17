@@ -1,0 +1,49 @@
+.ovalWrapper {
+    /* position: absolute; */
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 13%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+div {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#red {
+    position: absolute;
+    /* text-align: center; */
+    color: red;
+    top: 25%;
+    left:35%;
+}
+
+#yellow {
+    position: absolute;
+    /* text-align: center; */
+    color: yellow;
+    top: 25%;
+    right: 35%;
+}
+
+#blue {
+    position: absolute;
+    /* text-align: center; */
+    color: rgb(147, 147, 233);
+    top: 54%;
+    left: 35%;
+}
+
+#green {
+    position: relative;
+    /* text-align: center; */
+    color: rgb(120, 226, 120);
+    top: 75%;
+    left: 70%;
+    
+}
