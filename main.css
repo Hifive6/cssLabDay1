@@ -22,6 +22,7 @@
     border-left: 60px solid red;
     border-bottom: 60px solid blue;
     border-radius: 50%;
+    transform: rotate(45deg);
 }
 /* .ovalWrapper {
     position: absolute;
